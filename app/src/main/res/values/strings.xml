@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Application name -->
     <string name="app_name">PayBD</string>
-    <string name="mfs_service">MFS Service</string>
-    <string name="amount">Amount</string>
+
+    <!-- MainActivity labels -->
+    <string name="label_webhook_url">Webhook URL</string>
+    <string name="hint_webhook_url">https://example.com/webhook</string>
+
+    <string name="label_auth_token">Auth Token</string>
+    <string name="hint_auth_token">Enter your bearer token</string>
+
+    <string name="label_service_toggle">Enable Service</string>
+    <string name="label_service_on">Service: ON</string>
+    <string name="label_service_off">Service: OFF</string>
+
+    <string name="btn_save">Save Settings</string>
+
+    <!-- Validation / feedback messages -->
+    <string name="msg_settings_saved">Settings saved successfully.</string>
+    <string name="msg_invalid_url">Please enter a valid URL.</string>
+    <string name="msg_token_empty">Auth token cannot be empty.</string>
+
+    <!-- Content descriptions (accessibility) -->
+    <string name="cd_app_logo">PayBD logo</string>
 </resources>
