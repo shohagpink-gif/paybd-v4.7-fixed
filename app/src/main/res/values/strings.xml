@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PayBD</string>
+    <string name="mfs_service">MFS Service</string>
+    <string name="amount">Amount</string>
+</resources>
